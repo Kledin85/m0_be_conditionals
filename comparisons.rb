@@ -108,4 +108,4 @@ loves_to_play || loves_dog_park
 # Determine if the dog loves to play and is a puppy
 loves_to_play && is_puppy
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER:it came back as undefined local value because we have not yet stated what is_puppy is.
