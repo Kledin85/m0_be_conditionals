@@ -46,7 +46,7 @@ if num_quarters >= 2
 puts "I have enough money for a gumball"
 elsif num_quarters < 2
   puts "I don't have enough money for a gumball"
-end 
+end
 
 #####################
 # Using the variables defined below, write code that will tell you
@@ -64,3 +64,9 @@ end
 
 cups_of_flour = 1
 has_sauce = true
+
+if cups_of_flour >= 2 && has_sauce == True
+  puts "I can make a pizza"
+elsif cups_of_flour < 2 || has_sauce == false
+  puts "I cannot make a pizza"
+end
